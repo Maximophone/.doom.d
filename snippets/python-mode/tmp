@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: tmp
+# key: tmp
+# --
+[
+	{'files': ['$1'], 'snapshot_id': '$2', 'product': '$3'}
+	]
+$0

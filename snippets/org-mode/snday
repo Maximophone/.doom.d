@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: snday
+# key: snday
+# --
+* `(format-time-string "%A %Y-%m-%d")`
+** Dailies
+$0

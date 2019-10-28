@@ -1,10 +1,10 @@
 ;;; init.el -*- lexical-binding: t; -*-
 
-;; Copy this file to ~/.doom.d/init.el or ~/.config/doom/init.el ('doom install'
-;; will do this for you). The `doom!' block below controls what modules are
-;; enabled and in what order they will be loaded. Remember to run 'doom refresh'
-;; after modifying it.
-;;
+;; Copy this file to ~/.doom.d/init.el or ~/.config/doom/init.el ('doom
+;; quickstart' will do this for you). The `doom!' block below controls what
+;; modules are enabled and in what order they will be loaded. Remember to run
+;; 'doom refresh' after modifying it.
+
 ;; More information about these modules (and what flags they support) can be
 ;; found in modules/README.org.
 
@@ -98,7 +98,7 @@
        :lang
        ;;agda              ; types of types of types of types...
        ;;assembly          ; assembly for fun or debugging
-       ;;cc                ; C/C++/Obj-C madness
+       cc                ; C/C++/Obj-C madness
        ;;clojure           ; java with a lisp
        ;;common-lisp       ; if you've seen one lisp, you've seen them all
        ;;coq               ; proofs-as-programs
@@ -112,16 +112,16 @@
        ;;ess               ; emacs speaks statistics
        ;;faust             ; dsp, but you get to keep your soul
        ;;fsharp           ; ML stands for Microsoft's Language
-       ;;go                ; the hipster dialect
+       go                ; the hipster dialect
        ;;(haskell +intero) ; a language that's lazier than I am
        ;;hy                ; readability of scheme w/ speed of python
        ;;idris             ;
        ;;(java +meghanada) ; the poster child for carpal tunnel syndrome
-       ;;javascript        ; all(hope(abandon(ye(who(enter(here))))))
+       ;;lean
+       javascript        ; all(hope(abandon(ye(who(enter(here))))))
        ;;julia             ; a better, faster MATLAB
        ;;kotlin            ; a better, slicker Java(Script)
        ;;latex             ; writing papers in Emacs has never been so fun
-       ;;lean
        ;;ledger            ; an accounting system in Emacs
        ;;lua               ; one-based indices? one-based indices
        markdown          ; writing docs for people to ignore
@@ -139,12 +139,12 @@
        ;;php               ; perl's insecure younger brother
        ;;plantuml          ; diagrams for confusing people more
        ;;purescript        ; javascript, but functional
-       ;;python            ; beautiful is better than ugly
+       python            ; beautiful is better than ugly
        ;;qt                ; the 'cutest' gui framework ever
        ;;racket            ; a DSL for DSLs
        ;;rest              ; Emacs as a REST client
        ;;ruby              ; 1.step {|i| p "Ruby is #{i.even? ? 'love' : 'life'}"}
-       ;;rust              ; Fe2O3.unwrap().unwrap().unwrap().unwrap()
+       rust              ; Fe2O3.unwrap().unwrap().unwrap().unwrap()
        ;;scala             ; java, but good
        ;;scheme            ; a fully conniving family of lisps
        sh                ; she sells {ba,z,fi}sh shells on the C xor
@@ -152,6 +152,7 @@
        ;;swift             ; who asked for emoji variables?
        ;;terra             ; Earth and Moon in alignment for performance.
        ;;web               ; the tubes
+       ;;vala              ; GObjective-C
 
        :email
        ;;(mu4e +gmail)       ; WIP
@@ -170,6 +171,10 @@
        ;; +wordnut         ; wordnet (wn) search
        ;; +langtool)       ; a proofreader (grammar/style check) for Emacs
 
+       :collab
+       ;;floobits          ; peer programming for a price
+       ;;impatient-mode    ; show off code over HTTP
+
        :config
        ;; For literate config users. This will tangle+compile a config.org
        ;; literate config in your `doom-private-dir' whenever it changes.
@@ -179,3 +184,18 @@
        ;; provides a Spacemacs-inspired keybinding scheme and a smartparens
        ;; config. Use it as a reference for your own modules.
        (default +bindings +smartparens))
+
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(custom-safe-themes
+   (quote
+    ("0fdd9258f9bf92772bf3d7839dee12161a48225f58b91035de33abb5e3a11a73" "d0c943c37d6f5450c6823103544e06783204342430a36ac20f6beb5c2a48abe3" "34c99997eaa73d64b1aaa95caca9f0d64229871c200c5254526d0062f8074693" default))))
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )

@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: tmp0
+# key: tmp0
+# --
+$1_columns.update({"xpn_"+k for k in xpn_columns_metadata["$1"]})
+$0

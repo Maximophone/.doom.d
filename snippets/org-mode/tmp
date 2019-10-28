@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: tmp
+# key: tmp
+# --
+[[~/orgmode/img/xpn_dnb_pres/$1.png]]
+$0

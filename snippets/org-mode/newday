@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: newday
+# key: newday
+# --
+* `(format-time-string "%d/%m/%Y")`
+** Tasks
+$0
