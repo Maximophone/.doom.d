@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: snipdb
+# key: snipdb
+# --
+import ipdb
+ipdb.set_trace()
+$0
