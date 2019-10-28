@@ -6,6 +6,7 @@
  projectile-project-search-path '("~/git/")
  python-shell-interpreter "poetry run python"
  flycheck-python-pycompile-executable "poetry run python"
+ yas-indent-line 'fixed
  )
 
 ;; DnD
