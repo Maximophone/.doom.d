@@ -1,0 +1,15 @@
+# -*- mode: yaml-mode -*-
+# name: dndweapon
+# uuid: dndweapon
+# key: dndweapon
+# condition: t
+# --
+- name: ${1:Sword}
+  distance: ${2:melee}
+  category: ${3:simple}
+  cost: ${4:0}
+  dmg: ${5:1d6}
+  crit: ${6:x2}
+  weight: ${7:6}
+  dmg_type: ${8:slashing}
+$0
