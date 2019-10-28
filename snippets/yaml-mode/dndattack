@@ -1,0 +1,12 @@
+# -*- mode: yaml-mode -*-
+# name: dndattack
+# uuid: dndattack
+# key: dndattack
+# condition: t
+# --
+- name: ${1:none}
+  distance: ${2:melee}
+  mod: ${3:0}
+  dmg: ${4:1d6 + 2}
+  dmg_type: ${5:slashing}
+  $0

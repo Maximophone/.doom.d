@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: dndmlink
+# uuid: dndmlink
+# key: dndmlink
+# condition: t
+# --
+[[file:../../assets/monsters.org::#$1][$2]]$0
