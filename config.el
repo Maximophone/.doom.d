@@ -33,4 +33,3 @@
 
 ;; Disabling smartparens (buggy on large files)
 (add-hook 'org-mode-hook (lambda () (smartparens-mode -1)))
->>>>>>> 11927e3abab836b7d467fddd579732f2656a05b9
