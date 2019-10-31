@@ -1,0 +1,19 @@
+# -*- mode: yaml-mode -*-
+# name: dndarmor
+# uuid: dndarmor
+# key: dndarmor
+# condition: t
+# --
+
+- id: ${1:none}
+  template: armor
+  category: ${2:light}
+  name: ${3:none}
+  armor_bonus: ${4:1}
+  max_dex: ${5:8}
+  ac_penalty: ${6:0}
+  spell_fail: ${7:5}
+  speed: ${8:30}
+  weight: ${9:10}
+  cost: ${10:10}
+$0

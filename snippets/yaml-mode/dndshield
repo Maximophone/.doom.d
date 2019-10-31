@@ -1,0 +1,17 @@
+# -*- mode: yaml-mode -*-
+# name: dndshield
+# uuid: dndshield
+# key: dndshield
+# condition: t
+# --
+
+- id: ${1:none}
+  template: shield
+  category: shield
+  name: ${2:none}
+  armor_bonus: ${3:1}
+  ac_penalty: ${4:-1}
+  spell_fail: ${5:5}
+  weight: ${6:5}
+  cost: ${7:10}
+$0

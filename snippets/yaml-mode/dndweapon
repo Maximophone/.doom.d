@@ -4,12 +4,14 @@
 # key: dndweapon
 # condition: t
 # --
-- name: ${1:Sword}
-  distance: ${2:melee}
-  category: ${3:simple}
-  cost: ${4:0}
-  dmg: ${5:1d6}
-  crit: ${6:x2}
-  weight: ${7:6}
-  dmg_type: ${8:slashing}
+- id: ${1:None}
+  template: weapon
+  name: ${2:Sword}
+  distance: ${3:melee}
+  category: ${4:simple}
+  cost: ${5:0}
+  dmg: ${6:1d6}
+  crit: ${7:x2}
+  weight: ${8:6}
+  dmg_type: ${9:slashing}
 $0
