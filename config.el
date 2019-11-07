@@ -2,6 +2,9 @@
 
 ;; Place your private configuration here
 
+;; DEFAULT MODE = emacs
+(setq evil-default-state 'emacs)
+
 (setq
  projectile-project-search-path '("~/git/")
  python-shell-interpreter "poetry run python"
@@ -10,7 +13,7 @@
  )
 
 ;; DnD
-(load! "lisp/ox-dnd")
+;; (load! "lisp/ox-dnd")
 
 ;; THEME
 (setq doom-theme 'doom-one-light)
