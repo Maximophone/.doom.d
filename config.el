@@ -16,7 +16,7 @@
 ;; (load! "lisp/ox-dnd")
 
 ;; THEME
-(setq doom-theme 'doom-one-light)
+(setq doom-theme 'doom-acario-dark)
 
 ;; BINDINGS
 (global-set-key (kbd "M-o") 'ace-window)
@@ -26,7 +26,7 @@
       :gi "C-f" #'forward-char)
 
 ;; AUTOCOMPLETE
-(require 'company)
+;; (require 'company)
 (setq company-idle-delay 0.2
       company-minimum-prefix-length 3)
 
