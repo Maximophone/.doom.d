@@ -4,24 +4,26 @@
 # key: dndmonster
 # condition: t
 # --
-name: ${1:none}
-description: ${2:none}
-type: ${3:Medium Human}
-alignment: ${4:Neutral Neutral}
+id: ${1:none}
+template: ${2:monster}
+name: ${3:none}
+description: ${4:""}
+type: ${5:Medium Human}
+alignment: ${6:Neutral Neutral}
 basics:
-  ac: ${5:11}
-  hp: ${6:2d8 + 2}
-  speed: ${7:30}
+  ac: ${7:11}
+  hp: ${8:2d8 + 2}
+  speed: ${9:30}
 abilities:
-  str: ${8:16}
-  dex: ${9:11}
-  con: ${10:14}
-  int: ${11:9}
-  wis: ${12:7}
-  cha: ${13:15}
+  str: ${10:16}
+  dex: ${11:11}
+  con: ${12:14}
+  int: ${13:9}
+  wis: ${14:7}
+  cha: ${15:15}
 details:
-  languages: ${14:Common}
-  cr: ${15:0}
+  languages: ${16:Common}
+  cr: ${17:0}
 actions:
   attacks:
     $0
