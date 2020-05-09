@@ -8,3 +8,4 @@
 
 (package! typit)
 ;; (package! blacken)
+(package! command-log-mode)

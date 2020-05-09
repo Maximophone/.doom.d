@@ -12,8 +12,8 @@
  yas-indent-line 'fixed
  )
 
-;; DnD
-;; (load! "lisp/ox-dnd")
+;; fast suggestions
+(setq which-key-idle-delay 0.0)
 
 ;; THEME
 (setq doom-theme 'doom-acario-dark)
@@ -24,6 +24,14 @@
 (global-set-key "\M-p" (lambda() (interactive) (scroll-down 4)))
 (map! :gi "C-b" #'backward-char
       :gi "C-f" #'forward-char)
+
+;; evilem bindings
+(map! :leader
+      "m n" #'evilem-motion-next-line
+      )
+(map! :leader
+      "m p" #'evilem-motion-previous-line)
+
 
 ;; AUTOCOMPLETE
 ;; (require 'company)
@@ -37,3 +45,5 @@
 
 ;; Disabling smartparens (buggy on large files)
 (add-hook 'org-mode-hook (lambda () (smartparens-mode -1)))
+
+
