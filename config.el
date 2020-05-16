@@ -6,7 +6,7 @@
 (setq evil-default-state 'emacs)
 
 (setq
- projectile-project-search-path '("~/git/")
+ ;; projectile-project-search-path '("~/git/")
  ;; python-shell-interpreter "poetry run python"
  ;; flycheck-python-pycompile-executable "poetry run python"
  yas-indent-line 'fixed
@@ -41,7 +41,7 @@
 (setq company-idle-delay 0.1
       company-minimum-prefix-length 2)
 
-(global-set-key (kbd "C-<tab>") 'company-complete)
+;; (global-set-key (kbd "C-<tab>") 'company-complete)
 
 ;; ORGMODE
 (setq org-log-done t)
