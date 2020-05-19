@@ -10,3 +10,4 @@
 ;; (package! blacken)
 (package! command-log-mode)
 (package! ox-twbs)
+(package! palette)

@@ -48,3 +48,14 @@
 
 ;; Disabling smartparens (buggy on large files)
  (add-hook 'org-mode-hook (lambda () (smartparens-mode -1)))
+
+
+;; Adding keybinding for inserting palette current color into the bufer
+
+(use-package! palette
+  :config
+  (defun insert-current-color () (interactive) (insert (format "%s" palette-current-color)))
+  (map! :leader
+      "m c" 'insert-current-color
+      )
+  )
